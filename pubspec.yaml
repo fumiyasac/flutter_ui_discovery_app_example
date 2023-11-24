@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -61,9 +61,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Schyler
+    - family: Montserrat
       fonts:
-        - asset: fonts/Schyler-Regular.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Regular.otf
 
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic

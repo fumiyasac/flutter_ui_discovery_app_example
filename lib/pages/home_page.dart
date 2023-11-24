@@ -158,7 +158,7 @@ class _HomePageState extends State<HomePage> {
         itemCount: articles.length,
         itemBuilder: (BuildContext context, int index) {
           return Stack(
-            overflow: Overflow.visible,
+            clipBehavior: Clip.none,
             children: <Widget>[
               /// ArticleInformation
               _articleInformationContainerContentsWidget(context, index),
